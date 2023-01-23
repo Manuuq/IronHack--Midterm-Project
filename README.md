@@ -107,9 +107,9 @@ En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a
 
 For this project im using the following technollogies:
 <ol>
-    <li> HTML 5<li>
-    <li> CSS 3 <li>
-    <li> Javasript<li>
+    <li> HTML 5
+    <li> CSS 3 
+    <li> Javasript
 <ol>
 
 
