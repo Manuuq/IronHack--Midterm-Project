@@ -66,6 +66,24 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 ## Acerca del Proyecto
 
+Este es un proyecto midterm para el Bootcamp de desarrollo web Front End llevado a cabo la escuela de programacion IronHack. Dicho curso es dictado por los profesores Diego Zito, Carlos Garrido y Aleix Abuli. 
+El proyecto consiste en la creación de una pagina web aplicando los conocimientos aprendidos en clase, utilizando las tecnologias HTML, CSS y Javascript.
+Para llevarlo a cabo, recreare un diseño preexistente de .....   . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
 La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
@@ -85,6 +103,23 @@ En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
+
+
+For this project im using the following technollogies:
+<ol>
+    <li> HTML 5<li>
+    <li> CSS 3 <li>
+    <li> Javasript<li>
+<ol>
+
+
+
+
+
+
+
+
+
 
 La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
 
@@ -106,16 +141,13 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
 
-#### Day One
 
 #### Day One
 
 ###### Lunes 23, Enero 2023
 
-- [ ] Tarea no completada
-- [x] Tarea Completada
-- [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
+- [x] Ej - Dar comienzo al archivo Readme, explicando acerca de que trata el proyecto y cual es su objetivo.
+- [x] Ej - Segmentar el modelo de website propuesto, identificar los componentes del archivo HTML y generar el plan de proyecto.
 
 #### Day Two
 
