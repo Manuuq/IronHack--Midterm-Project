@@ -67,6 +67,7 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 ## Acerca del Proyecto
 
 Este es un proyecto midterm para el Bootcamp de desarrollo web Front End llevado a cabo la escuela de programacion IronHack. Dicho curso es dictado por los profesores Diego Zito, Carlos Garrido y Aleix Abuli. 
+<br>
 El proyecto consiste en la creación de una pagina web aplicando los conocimientos aprendidos en clase, utilizando las tecnologias HTML, CSS y Javascript.
 Para llevarlo a cabo, recreare un diseño preexistente de .....   . 
 
