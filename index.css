@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
+
+:root {
+        --Primary: #072ac8;
+        --PrimaryLight: #a2d6f9;
+        --PrimaryLighter: #d1edff;
+        --SecondaryLight: #fce300;
+        --SecondaryDark: #ffc600;
+        --NeutralLight: #f4f6fc;
+        --NeutralMedium: #6b708d;
+        --NeutralDark: #292e47;
+        --Wrong: #b33a3a;
+        --Right: #28a428;
+        --White: #fff;
+        --Black: #000;
+        --Background: #F2F4FC;
+}
+
+section {
+    margin-bottom: 150px !important;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    background: var(--Background);
+    font-family: "Roboto", sans-serif;
+    max-width: 1200px;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+    color: var(--NeutralDark);
+  }
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--NeutralDark);
+   }
+
+h3 {
+    font-size: 20px;
+    color: var(--NeutralDark);
+    font-weight: normal;
+    margin-bottom: 40px;
+  }
+
+.font {
+    text-transform: capitalize;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--NeutralMedium);
+    font-weight: bold;}
+
+
+
+
+
+.logo {
+        position: relative;
+        padding: 5%  ;
+        width: 25px;
+        height: 25px;
+
+}
+
+
+
+.mainContenido {
+    text-align: left;
+    margin-bottom: 50px;
+
+}
+
+
+
+.Hero {
+    margin: 60px auto;
+    max-width: 85%;
+}
+
+.mainContenido div.heroButtons {
+
+    color: var(--Primary);
+    text-decoration: underline;
+}
+
+.heroButtons a:hover {
+
+    color: var(--Primary);
+    text-decoration: underline;
+
+}
+
+.ourWork {
+    background-color: var(--Primary);
+    color: var(--White);
+    display: inline;
+    margin-top: 30px;
+
+}
+
+.ourWork a {
+    background-color: var(--Primary);
+    color: var(--White);
+    padding: 15px;
+    font-weight: normal;
+
+}
+
+.Hero div.heroButtons a {
+    padding: 15px;
+
+}
+
+.Hero div.heroButtons a.ourWork {
+    font-weight: normal;
+
+}
+
+.imagesHero {
+    position: relative;
+}
+
+.card1 {
+    width: 600px;
+    max-width: 100%;
+
+}
+
+.heroImage {
+
+    max-width: 250px;
+    position: absolute;
+    top: 0%;
+    left: -15%;
+    background-color: rgba(0, 0, 0, 0);
+    display: none;
+}
+
+.card2 {
+
+    top: auto;
+    left: auto;
+    right: -15%;
+    bottom: -15%;
+}
+
+/* SECTION BRANDS */
+
+
+.brands {
+
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+
+.imagesBrands {
+
+    margin: 0 auto;
+    filter: grayscale(1);
+}
+
+
+/* SECTION RECENT PROJECTS*/
+
+
+.recentProjects{ 
+    margin-top: 50px;
+}
+
+.recentProjects h1 {
+    margin: 30px;
+    text-align: left;
+}
+
+.cardProjects,
+.cardProjects h3,
+.cardProjects p,
+.cardProjects a {
+    background-color: var(--White);
+    text-align: left;
+    color: var(--Black);
+
+}
+
+.cardProjects {
+    margin: 20px auto;
+    padding-bottom: 10px;
+    width: 80%;
+
+}
+
+.cardProjects h4,
+.cardProjects p,
+.cardProjects a{
+    margin: 10px 0;
+
+}
+
+.cardProjects h4,
+.cardProjects p,
+.cardProjects .learnMore {
+    padding-left: 10px;
+
+}
+
+.cardProjects p {
+    color: var(--NeutralMedium);
+    font-weight: normal;
+    margin-bottom: 50px;
+
+}

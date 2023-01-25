@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Circle Agency</title>
-    <link rel="stylesheet" href="resources/styles/style.css" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <div class="logo">
@@ -27,9 +27,9 @@
     <section class="Hero">
       <div class="mainContenido">
         <h1 class="font">Empower your Business With Stunning Desing!</h1>
-        <h2>Circle is a digital design development studio. We desing and develop astonishing websites and mobileapps.</h2>
+        <h3>Circle is a digital design development studio. We desing and develop astonishing websites and mobileapps.</h3>
           <div class="heroButtons">
-              <a href="#ourWork">See our work</a>
+              <a class="ourWork" href="#ourWork">See our work</a>
               <a href="#inTouch">Get in touch</a>
           </div>
        </div>
@@ -49,12 +49,12 @@
     </section>
    
     <section id="Projects" class="recentProjects">
-      <h1 class="font">Recent Projects</h1>
+      <h2 class="font">Recent Projects</h2>
       <div class="projectsBox">
         <article class="cardProjects">
           <img class="projectsImage" src="./resources/images/projects-section/1.jpg"alt="uiDesignProject">
           <div class="projectContent">
-            <h3 class="projectName">Simplify</h3>
+            <h4 class="projectName">Simplify</h4>
             <p class="projectDescription">UI design & App development</p>
             <a class="learnMore" href="">Learn More</a>
           </div>
@@ -63,7 +63,7 @@
           <article class="cardProjects">
           <img class="projectsImage" src="./resources/images/projects-section/2.jpg" alt="webDevelopment">
           <div class="projectContent">
-            <h3 class="projectName">Dashcoin</h3>
+            <h4 class="projectName">Dashcoin</h4>
             <p class="projectDescription">Web Development</p>
             <a class="learMore" href="">Learn More</a>
           </div>
@@ -72,7 +72,7 @@
         <article class="cardProjects">
           <img class="projectsImage" src="./resources/images/projects-section/3.jpg" alt="userExperienceDesign">
           <div class="projectContent">
-            <h3 class="projectName">Vectorify</h3>
+            <h4 class="projectName">Vectorify</h4>
             <p class="projectDescription">User Experience design</p>
             <a class="learnMore" href="./resources/images/projects-section/3.jpg">Learn More</a>
           </div>
@@ -110,7 +110,7 @@
           <div class="servicesImages">
             <img src="./resources/images/services-section/icons/1.svg" alt="User Interface Design">   
           </div>
-          <h5 class="font">User Interface Design</h5>
+          <h4 class="font">User Interface Design</h4>
           <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
           <a class="learnMore" href="#">Learn More</a>
         </article>
@@ -118,7 +118,7 @@
           <div class="servicesImages">
             <img src="./resources/images/services-section/icons/2.svg" alt="User Experience Design">
           </div>
-          <h5 class="font">User Experience design</h5>
+          <h4 class="font">User Experience design</h4>
           <p>Circle always focuses on delivering the best user experience to your customers.</p>
           <a class="learnMore" href="#">Learn More</a>
         </article>
@@ -126,15 +126,39 @@
           <div class="servicesImages">
             <img src="./resources/images/services-section/icons/3.svg" alt="Application development icon">
           </div>
-          <h5 class="font">Application development</h5>
+          <h4 class="font">Application development</h4>
           <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
           <a class="learnMore" href="#">Learn More</a>
         </article>
       </div>
     </section>
     
-    <footer>
+    <section class="form">
+      <div id="formtext" class="formtext">
+        <h1 class="questions">Do you have any questions?</h1>
+        <br>
+        <h3>Let us help you!</h3>
+        <div>
+          <img src="./resources/images/newsletter/icon/mail.svg" alt="newLetter">
+          <form>
+            <label for="email" placeholder="Enter your email" ></label>
+            <input  type="email" name="email" id="mailNewsletter" placeholder="Enter your email">
+            <input type="submit" id="submitNewsletter" value="Suscribe">
+          </form>
+        </div>
+      </div>
+    </section>
 
+   
+    <footer class="footer">
+      <div class="LogoFooter">
+        <img  src="./resources/images/logos/circle.svg" alt="logoCircle">
+        <h4 class="font">2972 Westheimer Rd. Santa Ana, Illinois 85486</h4>
+      </div>
+      <div>
+
+
+      </div>
 
       
     </footer>
