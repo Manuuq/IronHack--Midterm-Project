@@ -105,18 +105,14 @@ En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a
 ### Construido Con
 
 
-For this project im using the following technollogies:
+For this project i will be using the following technollogies:
 <ol>
     <li> HTML 5
     <li> CSS 3 
     <li> Javasript
 <ol>
 
-
-
-
-
-
+<br>
 
 
 
@@ -151,10 +147,15 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 #### Day Two
 
+-[x] -Dar estructura HTML al archivo index.html
+-[] -Comenzar a dar estilo a la estructura HTML utilizando una hoja CSS
+
 ###### Martes 24, Enero 2023
 
 #### Day Three
-
+-[] - Dar estilo en CSS al archivo Index.html
+-[] - Estructurar archivo contact-us.html y project.html
+-[] - Dar estilo en CSS a los archivos html mencionados en tarea anterior.
 ###### Miercoles 25, Enero 2023
 
 #### Day Four
