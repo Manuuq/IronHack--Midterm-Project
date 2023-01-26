@@ -154,12 +154,16 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Martes 24, Enero 2023
 
 #### Day Three
--[] - Dar estilo en CSS al archivo Index.html
--[] - Estructurar archivo contact-us.html y project.html
+-[] - Acabar estilo en CSS al archivo Index.html
+-[x] - Estructurar archivo contact-us.html y project.html
 -[] - Dar estilo en CSS a los archivos html mencionados en tarea anterior.
+
 ###### Miercoles 25, Enero 2023
 
 #### Day Four
+-[] - Acabar estilo en CSS al archivo Index.html
+-[] - Estructurar archivo contact-us.html y project.html
+-[] - Dar estilo en CSS a los archivos html mencionados en tarea anterior.
 
 ###### Jueves 26, Enero 2023
 
