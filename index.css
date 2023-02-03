@@ -44,6 +44,11 @@ body {
 
 }
 
+.navigation a:hover{
+background-color: wheat;
+
+}
+
 .buttonContact a {
         margin-right: 200px;
         background-color:#072AC8;
@@ -502,6 +507,97 @@ width: 500px;
 
 
 
+              /*  CONTACT-US PAGE CSS */
+
+
+
+.section-form{
+  
+  width: 57em;
+ 
+  height: 41.25em;
+  margin: 2em auto;
+}
+.section-form h2{
+  font-size: var(--h2-font-size);
+  font-weight: var(--h2-font-weight);
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 3em 0;
+}
+
+.form label{
+  font-size: var(--intro-text-size-s);
+  font-weight: var(--intro-text-weight);
+}
+
+.form-middle{
+  display: flex;
+  gap: 5.25em;
+}
+.form-middle div{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#name{
+  /* 68.7em */
+  width: 68.7em;
+  height: 70px;
+  padding-left: 2em;
+  border: none;
+  outline: none;
+  background-color: rgb(214, 223, 237);
+}
+
+#tel, #email{
+  /* 31.25em */
+  width: 31.25em;
+  height: 70px;
+  padding-left: 2em;
+  border: none;
+  outline: none;
+  background-color: rgb(214, 223, 237);
+}
+
+#message{
+  padding: 2em;
+  width: 68.7em;
+  height: 12em;
+  border: none;
+  background-color:rgb(214, 223, 237)
+}
+
+#button{
+  background-color: var(--primary);
+  color: var(--whitetext);
+  font-weight: var(--headline-text-size);
+  font-weight: var(--headline-weight-m);
+  /* 68.7em */
+  width: 68.7em;
+  height: 80px;
+  border: none;
+}
+.form-div{
+ display: none;
+}
+.form-div.active{
+  display: block;
+  background-color: rgb(181, 232, 154);
+  border: 1px solid rgb(123, 219, 44);
+  color: var(--colorh1Text);
+}
+.form-div.notfinish{
+  display: block;
+  background-color: rgb(247, 135, 135);
+  border: 1px solid rgb(242, 24, 24);
+  color: var(--colorh1Text);
+}
 
 
 

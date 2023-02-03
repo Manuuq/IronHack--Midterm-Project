@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Circle Agency - Contact</title>
-    <link rel="stylesheet" href="resources/styles/style.css" />
+    <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
+        <!-- NAVIGATION BAR-->
+
     <nav class="nav-bar">
         <div class="logo">
             <img src="./resources/images/logos/circle.svg" alt="logoCircle">
@@ -24,41 +26,53 @@
             </div>
         </div>
         <div class="buttonContact">
-            <a href="">Contact Us</a>
+            <a href="./contact-us.html">Contact Us</a>
         </div>
     </nav>
 
-    <form id="form-container" action="" method="get" class="contact-Form">
-        <h1>Contact Us</h1>
+    <!-- CONTACT-US FORM-->
 
-        <div class="Name-input">
-            <label for="name">Full Name</label><br>
-            <input type="text" placeholder="Enter your full name" name="name" id="name" 
-        </div>
+    <section class="section-form">
+        <h2>Contact Us</h2>
 
-        <div class="Email-input">
-            <div>
-                <label for="email">Email</label><br>
-                <input type="email" name="email" id="email" placeholder="Enter your email address"
+        <form id="form" class="form" action="">
+            <label for="name">Full Name*</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" />
+            <br />
+
+            <div class="form-middle">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" />
+                </div>
+
+                <div>
+                    <label for="tel">Phone</label>
+                    <input type="tel" id="tel" name="tel" placeholder="Enter your phone number" />
+                </div>
             </div>
-            <div>
-                <label for="phone">Phone</label><br>
-                <input type="text" name="phone" id="phone" placeholder="Enter your phone number"
-            </div>
-        </div>
-        <div class="Box-message">
-            <label for="message">Message</label><br>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here..."></textarea>
-        </div>
 
+            <br />
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Write your message here"></textarea>
+
+            <input type="submit" id="button" value="Submit" />
+        </form>
+        <div class="form-div" id="respuesta">
+
+        </div>
+    </section>
+
+<!-- FOOTER-->
 
     <footer class="footer">
         <div>
             <img src="./resources/images/logos/circle.svg" alt="Logo Circle">
             <p>2972 Westheimer Rd. Santa Ana, <br>
-                 Illinois 85486</p>
+                Illinois 85486</p>
         </div>
-        <div class="box-links">
+        <div class="footer-links">
             <ul>
                 <li> <a href=""> Team </a></li>
                 <li> <a href=""> Press </a></li>
