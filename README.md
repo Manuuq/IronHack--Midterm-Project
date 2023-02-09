@@ -3,24 +3,6 @@ git add . && git commit -m "mensaje referencial" && git push origin main
 
 
 
-Un archivo README.md es un archivo de markdown que contiene información sobre un proyecto. Típicamente se encuentra en el directorio raíz de un proyecto y se utiliza para proporcionar documentación e instrucciones para otros que puedan querer usar o contribuir al proyecto.
-
-Para los desarrolladores, un archivo README.md bien estructurado y bien documentado puede ser beneficioso de varias maneras. Puede ayudar a asegurar que otros puedan entender y usar fácilmente el proyecto, lo que puede conducir a más contribuciones y una comunidad más activa alrededor del proyecto. Además, puede hacer que sea más fácil para los desarrolladores incorporar a nuevos miembros del equipo y para que otros entiendan el propósito y la funcionalidad del proyecto.
-
-Para otros desarrolladores, un archivo README.md bien estructurado y bien documentado puede ser un recurso valioso cuando se trata de entender o usar un proyecto. Puede proporcionar información sobre los objetivos, funcionalidad y cómo usar del proyecto, lo que puede ahorrar tiempo y esfuerzo al tratar de ponerse al día en un nuevo proyecto. Además, un buen README.md también puede proporcionar información sobre cómo contribuir al proyecto y directrices para hacerlo, lo que puede facilitar que otros se involucren y contribuyan al proyecto.
-
-En el caso específico de comenzar en este mundo de desarrollo como desarrollador junior, lo cual todos ustedes, queridos estudiantes caen bajo ella, puede beneficiarse de la siguiente manera:
-
-Tener un archivo README.md bien estructurado y bien documentado también puede ser beneficioso para los nuevos desarrolladores junior que están tratando de entrar en el mercado laboral. El mercado laboral para desarrolladores es altamente competitivo, y tener un portafolio de proyectos bien documentados y fácilmente comprensibles puede diferenciar a un desarrollador junior de otros. Un archivo README.md bien escrito demuestra la habilidad de un desarrollador para comunicar y documentar su trabajo de manera efectiva, lo cual es una habilidad importante en cualquier entorno profesional. Además, tener un portafolio de proyectos bien documentados también puede ayudar a los desarrolladores junior a entender y explicar mejor su propio trabajo, lo cual puede ser beneficioso en entrevistas laborales y otros entornos profesionales. En general, un archivo README.md bien estructurado y bien documentado puede ayudar a los desarrolladores junior a mostrar sus habilidades y destacar en un mercado laboral competitivo.
--->
-
-<!-- Estructura -->
-<!--
-*** Estoy usando enlaces de estilo "referencia" de markdown para la legibilidad.
-*** Los enlaces de referencia están encerrados en corchetes [ ] en lugar de paréntesis ( ).
-*** Vea la parte inferior de este documento para la declaración de las variables de referencia
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 <!-- Por favor no borrar este elemeno, ayuda al elemento "back to top" -->
 
@@ -29,9 +11,9 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="./resources/images/readMe/wu.png" alt="Logo" width="80" height="80">
-  <h3 align="center">Circle Landing Agency Website</h3>
-  <a href="https://midterm-project.vercel.app/">Visit Website</a>
+  <!-- <img src="./resources/images/readMe/wu.png" alt="Logo" width="80" height="80"> -->
+  <h3 align="center">FInal Project: Task App - IronHack</h3>
+  <!-- <a href="https://midterm-project.vercel.app/">Visit Website</a> -->
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -66,10 +48,10 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 ## Acerca del Proyecto
 
-Este es un proyecto midterm para el Bootcamp de desarrollo web Front End llevado a cabo la escuela de programacion IronHack. Dicho curso es dictado por los profesores Diego Zito, Carlos Garrido y Aleix Abuli. 
-<br>
-El proyecto consiste en la creación de una pagina web aplicando los conocimientos aprendidos en clase, utilizando las tecnologias HTML, CSS y Javascript.
-Para llevarlo a cabo, recreare un diseño preexistente de .....   . 
+Este es el proyecto final para el curso de desarrollo Front End en IronHack. Consiste en el desarrollo de una aplicacion web para gestionar tareas.
+La aplicacion provee un perfil personal donde el usuario puede crear apuntes de tipo tareas para oranizar su dia a dia. 
+
+La aplicacion fue creada con Vue.js .
 
 
 
@@ -87,48 +69,26 @@ Para llevarlo a cabo, recreare un diseño preexistente de .....   .
 
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas
-- Funcionalidades principales
-- Instrucciones de instalación y configuración
-- Enlaces a documentación adicional o recursos relacionados con el proyecto
-- Licencia del proyecto
-- Contribuciones de las personas en el proyecto.
-
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
 
 
-For this project i will be using the following technollogies:
+Tecnologias utilizadas para el desarrollo:
+
+<h6> Lenguages de programación</h6>
 <ol>
     <li> HTML 5
     <li> CSS 3 
     <li> Javasript
-<ol>
-
+    <li> HTML 5
 <br>
 
+<h6> Frameworks</h6>
+<ol>
+    <li> Vue.js
 
-
-
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
-
-En esta sección se puede incluir información como:
-
-- Lenguajes de programación utilizados
-- Frameworks y bibliotecas utilizadas
-- Herramientas de desarrollo (IDE, control de versiones, etc)
-- Servicios en la nube utilizados (si corresponde)
-- Otros recursos o tecnologías relacionadas con el proyecto.
-
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
