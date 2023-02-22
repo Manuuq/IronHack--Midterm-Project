@@ -10,7 +10,7 @@
 </head>
 
 <body>
-        <!-- NAVIGATION BAR-->
+    <!-- NAVIGATION BAR-->
 
     <nav class="nav-bar">
         <div class="logo">
@@ -19,9 +19,15 @@
         <div>
             <div class="navigation">
                 <ul>
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>Services</li>
+                    <li>
+                        <a class="nav-link" href="./index.html">Home</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="./project.html">Projects</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="./">Services</a>
+                      </li>
                 </ul>
             </div>
         </div>
@@ -32,39 +38,29 @@
 
     <!-- CONTACT-US FORM-->
 
-    <section class="section-form">
-        <h2>Contact Us</h2>
+    <section id="form">
+        <h2 class="title">Contact Us</h2>
+        <div class="allform">
+            <label class="formLabel" for="yourName">Full Name *</label>
+            <input class="formLabel" type="text" id="yourName" placeholder="Enter your full name" />
 
-        <form id="form" class="form" action="">
-            <label for="name">Full Name*</label>
-            <input type="text" id="name" name="name" placeholder="Enter your full name" />
-            <br />
-
-            <div class="form-middle">
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email address" />
-                </div>
-
-                <div>
-                    <label for="tel">Phone</label>
-                    <input type="tel" id="tel" name="tel" placeholder="Enter your phone number" />
-                </div>
+            <div class="email-phone">
+                <label class="formLabel" for="yourEmail">Email
+                    <input type="email" id="yourEmail" placeholder="Enter your email" />
+                </label>
+                <label class="formLabel" for="yourPhone">Phone
+                    <input type="text" id="yourPhone" placeholder="Enter your phone" />
+                </label>
             </div>
 
-            <br />
-
-            <label for="message">Message</label>
-            <textarea name="message" id="message" placeholder="Write your message here"></textarea>
-
-            <input type="submit" id="button" value="Submit" />
-        </form>
-        <div class="form-div" id="respuesta">
-
+            <label class="formLabel" for="yourMessage">Message *</label>
+            <textarea id="message" name="" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
         </div>
+        <button class="submit-button">Submit</button>
     </section>
 
-<!-- FOOTER-->
+
+    <!-- FOOTER-->
 
     <footer class="footer">
         <div>
@@ -83,7 +79,7 @@
             </ul>
         </div>
     </footer>
-
+<script src="./resources/js/contact.js"></script>
 
 </body>
 

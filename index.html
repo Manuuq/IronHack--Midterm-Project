@@ -12,25 +12,47 @@
 <!-- NAV BAR -->
 
 <body>
-  <nav class="nav-bar">
+  <nav id="burgerMenu" class="nav-bar">
     <div class="logo">
       <img src="./resources/images/logos/circle.svg" alt="logoCircle">
     </div>
-    <div>
-      <div class="navigation">
-        <ul>
-          <li>Home</li>
+    <div class="navigation">
+      <ul>
+        <li>
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li>
+          <a class="nav-link" href="./project.html">Projects</a>
+        </li>
+        <li>
+          <a class="nav-link" href="./">Services</a>
+        </li>
+        <!--  <li href="./index.css">Home</li>
           <li>Projects</li>
-          <li>Services</li>
-        </ul>
-      </div>
+          <li>Services</li> -->
+      </ul>
     </div>
+   <!--  <div class="burguer-menu">
+      <div class="container">
+          <input class="checkbox" type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>  
+          <div class="menu-items">
+            <li><a id="" href="#">Home</a></li>
+            <li><a href="#project-container" onclick="() => null;">Projects</a></li>
+            <li><a href="#services" onclick="() => null;">Services</a></li>
+            <li><a href="/aboutUs.html">About</a></li>               
+          </div> -->
+
     <div class="buttonContact">
       <a href="./contact-us.html">Contact Us</a>
     </div>
   </nav>
 
-<!-- HERO SECTION-->
+  <!-- HERO SECTION-->
 
   <section class="Hero">
     <div class="mainContenido">
@@ -39,7 +61,7 @@
       </h3>
       <div class="heroButtons">
         <a class="our-Work" href="#ourWork">See our work</a>
-        <a class="get-in-touch" href="#inTouch">Get in touch</a>
+        <a class="get-in-touch" href="./">Get in touch</a>
       </div>
     </div>
     <div class="imagesHero">
@@ -51,41 +73,74 @@
 
   <!-- BRANDS ( PARTNERS) -->
 
-  
+
   <section class="brands">
-    <img class="imagesBrands" src="./resources/images/logos/airbnb-logo.svg" alt="logoAirbnb">
-    <img class="imagesBrands" src="./resources/images/logos/google-logo.svg" alt="logoGoogle">
-    <img class="imagesBrands" src="./resources/images/logos/microsoft-logo.svg" alt="logoMicrosoft">
-    <img class="imagesBrands" src="./resources/images/logos/fedex-logo.svg" alt="logoFedex">
-    <img class="imagesBrands" src="./resources/images/logos/amazon-logo.svg" alt="amazonLogo">
+    <a href="https://www.airbnb.com" target="_blank"><img class="imagesBrands"
+        src="./resources/images/logos/airbnb-logo.svg" alt="logoAirbnb"></a>
+    <a href="https://www.google.com" target="_blank"><img class="imagesBrands"
+        src="./resources/images/logos/google-logo.svg" alt="logoGoogle"></a>
+    <a href="https://www.microsoft.com" target="_blank"><img class="imagesBrands"
+        src="./resources/images/logos/microsoft-logo.svg" alt="logoMicrosoft"></a>
+    <a href="https://www.fedex.com" target="_blank"><img class="imagesBrands"
+        src="./resources/images/logos/fedex-logo.svg" alt="logoFedex"></a>
+    <a href="https://www.amazon.com" target="_blank"><img class="imagesBrands"
+        src="./resources/images/logos/amazon-logo.svg" alt="amazonLogo"></a>
   </section>
 
   <!-- OUR PROJECTS-->
 
+  <!-- <section class="projects">
+    <div class="project-container">
+      <h2>Recent Projects</h2>
+      <div>
+        <div class="project projectOne">
+          <img src="./resources/images/projects-section/1.jpg" alt="">
+          <h3></h3>
+          <p class="paragraf"></p>
+          <a href="">Learn More</a>
+        </div>
+        <div class="project projectTwo">
+          <img src="./resources/images/projects-section/2.jpg" alt="">
+          <h3></h3>
+          <p class="paragraf"></p>
+          <a href="">Learn More</a>
+        </div>
+        <div class="project projectThree">
+          <img src="./resources/images/projects-section/3.jpg" alt="">
+          <h3></h3>
+          <p class="paragraf"></p>
+          <a href="">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+  
   <section class="box-projects">
     <h2>Recent projects</h2>
     <div class="box-projects-2">
       <div class="individual-boxes-project">
         <img class="project-Image" src="./resources/images/projects-section/1.jpg" alt="Project Foto 1">
         <h3>Simplify</h3>
-        <p>UI Design & App Development</p> <a href="">Learn More</a>
+        <p>UI Design & App Development</p> <a href="./project.html">Learn More</a>
       </div>
 
       <div class="individual-boxes-project">
         <img class="project-Image" src="./resources/images/projects-section/2.jpg" alt="Project Foto 1">
         <h3>Dashcoin</h3>
-        <p>UI Design & App Development</p> <a href="">Learn More</a>
+        <p>UI Design & App Development</p> <a href="./project.html">Learn More</a>
       </div>
 
       <div class="individual-boxes-project">
         <img class="project-Image" src="./resources/images/projects-section/3.jpg" alt="Project Foto 1">
         <h3>Vectorify</h3>
-        <p>UI Design & App Development</p> <a href="">Learn More</a>
+        <p>UI Design & App Development</p> <a href="./project.html">Learn More</a>
       </div>
     </div>
-  </section>
+  </section> 
 
- <!-- CLIENTS OPINIONS-->
+  <!-- CLIENTS OPINIONS-->
 
 
 
@@ -105,10 +160,12 @@
     <img class="emoji4" src="../resources/images/testimonial-section/memoji-2.png" src="png" alt="memoji4">
   </section>
 
-<!-- OUR SERVICES-->
+  <!-- OUR SERVICES-->
 
   <section class="our-Services">
-    <div><h3>Our Services</h3></div>
+    <div>
+      <h3>Our Services</h3>
+    </div>
     <div class="boxes-services">
       <article>
         <div class="service-1"></div>
@@ -140,7 +197,7 @@
     </div>
   </section>
 
-<!-- FORM : ANY QUESTIONS-->
+  <!-- FORM : ANY QUESTIONS-->
 
   <section class="Form-questions">
     <div class="Box-forms">
@@ -148,8 +205,8 @@
       <h5>Let us help you!</h5>
       <div class="Button-suscribe">
         <img src="./resources/images/newsletter/icon/mail.svg" alt="email icon">
-      <input type="text" placeholder="Enter your email" >
-      <button>Suscribe</button>
+        <input type="text" placeholder="Enter your email">
+        <button>Suscribe</button>
       </div>
     </div>
   </section>
@@ -174,17 +231,8 @@
       </ul>
     </div>
   </footer>
+
+  <script src="./resources/js/index.js"></script>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-

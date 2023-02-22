@@ -12,24 +12,94 @@
 </head>
 <body>
     
-    <nav class="nav-bar">
-        <div class="logo">
-          <img src="./resources/images/logos/circle.svg" alt="logoCircle">
-        </div>
-        <div>
-          <div class="navigation">
-            <ul>
-              <li>Home</li>
-              <li>Projects</li>
-              <li>Services</li>
-            </ul>
+  <nav id="burgerMenu" class="nav-bar">
+    <div class="logo">
+      <img src="./resources/images/logos/circle.svg" alt="logoCircle">
+    </div>
+    <div class="navigation">
+      <ul>
+        <li>
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li>
+          <a class="nav-link" href="./project.html">Projects</a>
+        </li>
+        <li>
+          <a class="nav-link" href="./">Services</a>
+        </li>
+        <!--  <li href="./index.css">Home</li>
+          <li>Projects</li>
+          <li>Services</li> -->
+      </ul>
+    </div>
+    <div class="burguer-menu">
+      <div class="container">
+          <input class="checkbox" type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>  
+          <div class="menu-items">
+            <li><a id="" href="#">Home</a></li>
+            <li><a href="#project-container" onclick="() => null;">Projects</a></li>
+            <li><a href="#services" onclick="() => null;">Services</a></li>
+            <li><a href="/aboutUs.html">About</a></li>               
           </div>
-        </div>
         <div class="buttonContact">
           <a href="./contact-us.html">Contact Us</a>
         </div>
       </nav>
-        
+
+      <div class="main-div">
+        <section class="main-project">
+            <div>
+                <h1></h1>
+                <div>
+                    <p></p>
+                    <span>Completed on 24/1/22</span>
+                </div>
+            </div>
+          </div>  
+        </section>
+
+      <section class="projects">
+        <div class="project-container">
+          <h2>Recent Projects</h2>
+          <div>
+            <div class="project projectOne">
+              <img src="./resources/images/projects-section/1.jpg" alt="">
+              <h3></h3>
+              <p class="paragraf"></p>
+              <a href="">Learn More</a>
+            </div>
+            <div class="project projectTwo">
+              <img src="./resources/images/projects-section/2.jpg" alt="">
+              <h3></h3>
+              <p class="paragraf"></p>
+              <a href="">Learn More</a>
+            </div>
+            <div class="project projectThree">
+              <img src="./resources/images/projects-section/3.jpg" alt="">
+              <h3></h3>
+              <p class="paragraf"></p>
+              <a href="">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+              
+      <section class="Form-questions">
+        <div class="Box-forms">
+          <h2>Do you have any questions?</h2>
+          <h5>Let us help you!</h5>
+          <div class="Button-suscribe">
+            <img src="./resources/images/newsletter/icon/mail.svg" alt="email icon">
+            <input type="text" placeholder="Enter your email">
+            <button>Suscribe</button>
+          </div>
+        </div>
+      </section>
         
       <footer class="footer">
         <div>
